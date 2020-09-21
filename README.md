@@ -27,7 +27,9 @@ dependencies {
 ```
 
 # Usage
-Sample App coming soon!
+To post a new event call `EventBus.post(SampleEvent())`
+
+To listen for new events, from a couroutine context call EventBus.getEvents() to get the Flow of events.
 
 # About the author
 
