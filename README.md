@@ -29,7 +29,7 @@ dependencies {
 # Usage
 To post a new event call `EventBus.post(SampleEvent())`
 
-To listen for new events, from a couroutine context call `EventBus.getEvents()` with optional `includeCurrentValue` `boolean` to get the Flow of events, optionally returning the most recent previous value as well.
+To listen for new events, from a couroutine context call `EventBus.getEvents()` with optional `includeCurrentValue` `boolean` to get the Flow of events, optionally returning the most recent previous event as well.
 
 # About the author
 
